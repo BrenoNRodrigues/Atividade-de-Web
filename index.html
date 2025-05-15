@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Atividades de Funções</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Atividades com Arrays</h1>
+
+  <section>
+    <h2>1. Soma dos Elementos</h2>
+    <input id="inputSoma" placeholder="Ex: 1,2,3" />
+    <button onclick="calcularSoma()">Somar</button>
+    <p>Resultado: <span id="resultadoSoma"></span></p>
+  </section>
+
+  <section>
+    <h2>2. Filtrar Números Pares</h2>
+    <input id="inputPares" placeholder="Ex: 2,5,8" />
+    <button onclick="filtrarPares()">Filtrar</button>
+    <p>Pares: <span id="resultadoPares"></span></p>
+  </section>
+
+  <section>
+    <h2>3. Maior Número</h2>
+    <input id="inputMaior" placeholder="Ex: 4,10,3" />
+    <button onclick="encontrarMaior()">Encontrar</button>
+    <p>Maior: <span id="resultadoMaior"></span></p>
+  </section>
+
+  <section>
+    <h2>4. Atendimento por Fila</h2>
+    <input id="numeroPessoa" type="number" placeholder="Número da pessoa" />
+    <button onclick="pegarFila()">Pegar Fila</button>
+    <button onclick="atenderPessoa()">Atender</button>
+    <input id="posicaoDesistir" type="number" placeholder="Posição para desistir" />
+    <button onclick="desistir()">Desistir</button>
+    <p>Fila Atual: <span id="filaAtual"></span></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
