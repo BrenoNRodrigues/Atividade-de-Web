@@ -20,7 +20,7 @@ function calcularSoma() {
   document.getElementById("resultadoSoma").textContent = resultado;
 }
 
-// Atividade 2: Filtrar números pares
+// Atividade 2 filtrar números pares
 function filtrarNumerosPares(array) {
   var pares = [];
   for (var i = 0; i < array.length; i++) {
@@ -44,7 +44,7 @@ function filtrarPares() {
   document.getElementById("resultadoPares").textContent = resultado.toString();
 }
 
-// Atividade 3: Encontrar maior número
+// Atividade 3 encontrar maior número
 function encontrarMaiorNumero(array) {
   if (array.length === 0) {
     return undefined;
@@ -79,7 +79,7 @@ function encontrarMaior() {
   }
 }
 
-// Atividade 4: Atendimento por fila
+// Atividade 4 atendimento por fila
 var fila = [];
 
 function mostrarFila() {
@@ -95,9 +95,9 @@ function pegarFila() {
   }
 
   if (numero > 65) {
-    fila.unshift(numero); // vai para o começo
+    fila.unshift(numero);
   } else {
-    fila.push(numero); // vai para o fim
+    fila.push(numero); 
   }
 
   mostrarFila();
@@ -106,7 +106,7 @@ function pegarFila() {
 function atenderPessoa() {
   if (fila.length > 0) {
     alert("Atendendo pessoa: " + fila[0]);
-    fila.shift(); // remove do começo
+    fila.shift();
     mostrarFila();
   } else {
     alert("Fila vazia!");
