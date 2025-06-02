@@ -1,0 +1,147 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url("/Template/img/leaves.png");
+  background-size: 50%;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  justify-content: space-between;
+}
+/* ------------------ CoresCustomizaveis ----------*/
+.OverlayVerdeClaro{
+   background-color: #88FF82 !important;
+}
+  
+  .BrancoTransparente{
+    background-color: #ffffff45 !important;
+  }
+   
+  .VerdeHeader{
+    background-color: #2A981B !important;
+  }
+   
+  .VerdeTitulo{
+    background-color: #8BC988 !important;
+  }
+   
+  .VerdeParagrafo{
+    background-color: #21621D !important;
+  }
+  
+  .VerdeFooter{
+    background-color: #3C8432 !important;
+  }
+   
+  .var{
+    background-color: #88FF82 !important;
+  }
+   
+  .var{
+    background-color: #88FF82 !important;
+  }
+
+/*----------------RestoDoCodigo-----------------*/
+
+nav ul a, nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+header{
+ width: 100%;
+ top: 0;
+ position: sticky;
+ z-index: 100;
+}
+
+footer{
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  height: 300px;
+}
+
+
+
+
+.CoverTubos{
+  height: 430px;
+  width: 100%;
+  overflow: hidden;
+  background-image: 
+  linear-gradient(to top right, #88ff82a4, #ffffff45 ), 
+  linear-gradient(#ffffffc9),
+  url("/Template/img/UPSCALETUBOSBRANCOS.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+}
+
+.logotipo{
+  background-image: url("/Template/img/EcoTubosLogotipo.png");
+  width: inherit;
+  height: inherit;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+/* --------------------- Media Queries-------------------- */
+@media screen and (max-width: 600px) {
+
+  .CoverTubos{
+  height: 30vh;
+  }
+}
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
