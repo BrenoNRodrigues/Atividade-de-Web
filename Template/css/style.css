@@ -13,6 +13,18 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+  color: #21621D;
+}
+
+.paterne{
+  background-image: url("Atividade-de-Web-main\Template\leaves.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  width: 100%;
+
 }
 
 .sidenav-trigger {
@@ -58,4 +70,41 @@ footer.page-footer {
 
 .greeneco{
   background-color: #4ca726;
+}
+
+.green darken-2{
+  background-color: #3C8432;
+}
+.imagem-sobre{
+background-image: url("Atividade-de-Web-main\Template\pexels-photo-2534493.jpg");
+ height: 500px;
+ width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.imagem-reducaoresid{
+background-image: url("Atividade-de-Web-main\Template\4996a356-93e9-4155-a8a8-fc586e640b8b.jpeg");
+ height: 500px;
+ width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.imagem-sustenta{
+background-image: url("Atividade-de-Web-main\Template\arnaud-mesureur-7EqQ1s3wIAI-unsplash.jpg");
+ height: 500px;
+ width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1{
+  color: #fff;
+}
+.sobre{
 }

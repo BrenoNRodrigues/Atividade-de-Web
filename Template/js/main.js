@@ -2,11 +2,12 @@ import navbar from './componentes/navbar.js';
 import home from './componentes/pagehome.js';
 import servicos from './componentes/pageservicos.js'
 import contato from './componentes/pagecontato.js'
-import foter from './componentes/foter.js'
+import footer from './componentes/footer.js'
+import sobrenos from './componentes/sobrenos.js';
 
 navbar()
 home()
-foter()
+footer()
 
 window.addEventListener("hashchange", ()=> {
     switch(location.hash){
@@ -18,6 +19,9 @@ window.addEventListener("hashchange", ()=> {
         break
         case "#contato":
             contato()
+        break
+        case "#sobrenos":
+            sobrenos()
         break
 
         

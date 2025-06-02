@@ -7,12 +7,14 @@ nav.innerHTML = ` <nav class="greeneco" role="navigation">
     <li><a href="#home">Produtos</a></li>
     <li><a href="#servicos">Serviços</a></li>
     <li><a href="#contato">Contato</a></li>
+    <li><a href="#sobrenos">Sobre Nos</a><li>
   </ul>
 
   <ul id="nav-mobile" class="sidenav">
-    <li><a href="index.html">Produtos</a></li>
-    <li><a href="servicos.html">Serviços</a></li>
-    <li><a href="contato.html">Contato</a></li>
+    <li><a href="#index">Produtos</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#contato">Contato</a></li>
+    <li><a href="#sobrenos">Sobre Nos</a></li>
   </ul>
   <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 </div>
