@@ -2,7 +2,7 @@ export default function sobrenos (){
     const main = document.getElementById("main")
 main.innerHTML = `
 <main>
-<article class="imagem-sobre">
+<article class="imagem-sobre imagem-capa">
   <h1>Sobre Nos</h1>
 </article>
   <section class="sobre">
@@ -12,7 +12,7 @@ main.innerHTML = `
 A seriedade e a responsabilidade são os pilares da nossa empresa. Valorizamos a confiança dos nossos parceiros e nos esforçamos para manter relações duradouras baseadas na transparência, na qualidade dos nossos produtos e na eficiência dos nossos serviços. Estamos continuamente inovando e aprimorando nossas práticas para garantir que atendemos às necessidades do mercado de maneira sustentável e ecológica.
     </p>
   </section>
-  <article class="imagem-sustenta">
+  <article class="imagem-sustenta imagem-capa">
     <h1>Sustentabilidade</h1>
   </article>
   <section class="sustenta">
@@ -21,7 +21,7 @@ A seriedade e a responsabilidade são os pilares da nossa empresa. Valorizamos a
       Promover práticas sustentáveis ajuda a proteger ecossistemas preciosos, conservar biodiversidade e reduzir a degradação ambiental, garantindo a saúde do planeta para as gerações futuras.
     </p>
   </section>
-  <article class="imagem-reducaoresid">
+  <article class="imagem-reducaoresid imagem-capa">
     <h1>Redução de Residuos</h1>
   </article>
   <section class="reducaoresid">
