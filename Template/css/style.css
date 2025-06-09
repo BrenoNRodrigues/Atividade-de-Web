@@ -93,5 +93,8 @@ footer.page-footer {
 h1.titulo-branco {
   color: #fff;
 }
+#map { 
+  height: 180px; 
+}
 .sobre{
 }
