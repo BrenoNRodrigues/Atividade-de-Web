@@ -1,10 +1,4 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+/* Corrigido com boas práticas */
 
 nav ul a,
 nav .brand-logo {
@@ -16,15 +10,14 @@ p {
   color: #21621D;
 }
 
-.paterne{
-  background-image: url("Atividade-de-Web-main\Template\leaves.png");
+.paterne {
+  background-image: url("Atividade-de-Web-main/Template/leaves.png");
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
   position: relative;
   height: 500px;
   width: 100%;
-
 }
 
 .sidenav-trigger {
@@ -37,11 +30,11 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -51,7 +44,7 @@ p {
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
   }
@@ -68,42 +61,36 @@ footer.page-footer {
   margin: 0;
 }
 
-.greeneco{
+.greeneco {
   background-color: #4ca726;
 }
 
-.green darken-2{
+.green.darken-2 {
   background-color: #3C8432;
 }
-.imagem-sobre{
-background-image: url("Atividade-de-Web-main\Template\pexels-photo-2534493.jpg");
- height: 500px;
- width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.imagem-reducaoresid{
-background-image: url("Atividade-de-Web-main\Template\4996a356-93e9-4155-a8a8-fc586e640b8b.jpeg");
- height: 500px;
- width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.imagem-sustenta{
-background-image: url("Atividade-de-Web-main\Template\arnaud-mesureur-7EqQ1s3wIAI-unsplash.jpg");
- height: 500px;
- width: 100%;
+
+.imagem-capa {
+  height: 500px;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-h1{
+.imagem-sobre {
+  background-image: url("Atividade-de-Web-main/Template/pexels-photo-2534493.jpg");
+}
+
+.imagem-sustenta {
+  background-image: url("Atividade-de-Web-main/Template/arnaud-mesureur-7EqQ1s3wIAI-unsplash.jpg");
+}
+
+.imagem-reducaoresid {
+  background-image: url("Atividade-de-Web-main/Template/4996a356-93e9-4155-a8a8-fc586e640b8b.jpeg");
+}
+
+h1.titulo-branco {
   color: #fff;
 }
 .sobre{
