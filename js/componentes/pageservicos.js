@@ -5,7 +5,7 @@ export default function servicos (){
     <div class="section">
     <section class="conteudo">
     <h2>Tubos de Papelão</h2>
-    <img src="/1000014861.jpg" class="imagem-produto" alt="Tubos empilhados">
+    <img src="/Atividade-de-Web/1000014861.jpg" class="imagem-produto" alt="Tubos empilhados">
 
     <h3>Espessura</h3>
     <div class="tamanhos">
