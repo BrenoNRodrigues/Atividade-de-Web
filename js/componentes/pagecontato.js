@@ -6,9 +6,9 @@ export default function contato(){
     <h1 class="midle-title">Nos
     Contate</h1>
     <div class="icon-contact">
-       <img class=icon-big src="/instagram.png" alt="instagram">
-      <img class=icon-big src="/Gmail_icon_(2020).svg.png" alt="Gmail_icon_">
-      <img class=icon-big src="/WhatsApp.svg.webp" alt="WhatsApp">
+       <img class=icon-big src="/Atividade-de-Web/instagram.png" alt="instagram">
+      <img class=icon-big src="/Atividade-de-Web/Gmail_icon_(2020).svg.png" alt="Gmail_icon_">
+      <img class=icon-big src="/Atividade-de-Web/WhatsApp.svg.webp" alt="WhatsApp">
     </article>
     </section>
     <div id=center-itens>
