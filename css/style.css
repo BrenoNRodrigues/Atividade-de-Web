@@ -1,0 +1,216 @@
+/* Corrigido com boas práticas */
+
+nav ul a,
+nav .brand-logo {
+  color: rgb(255, 255, 255);
+}
+
+p {
+  line-height: 2rem;
+  color: #21621D;
+  margin-inline: 10%
+}
+
+.paterne-green {
+  background-image: url("/leaves.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+
+.sidenav-trigger {
+  color: #ffffff;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  padding-bottom: 20px;
+  background-image: url("/leavesVerdao.png");
+}
+
+.greeneco {
+  background-color: #4ca726;
+  background-image: url("/leavesVerdao.png");
+}
+
+.green.darken-2 {
+  background-color: #3C8432;
+}
+
+.imagem-capa {
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.imagem-sobre {
+  background-image: linear-gradient(to right, rgba(21, 255, 0, 0.144), rgba(0, 255, 21, 0.274)), url("/pexels-photo-2534493.jpg");
+}
+
+.imagem-sustenta {
+  background-image: linear-gradient(to right, rgba(21, 255, 0, 0.144), rgba(0, 255, 21, 0.274)), url("/arnaud-mesureur-7EqQ1s3wIAI-unsplash.jpg");
+}
+.imagem-reducaoresid {
+  background-image: linear-gradient(to right, rgba(21, 255, 0, 0.144), rgba(0, 255, 21, 0.274)), url("/4996a356-93e9-4155-a8a8-fc586e640b8b.jpeg");
+ ;
+}
+
+#map { 
+  height: 500px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.information-text{ 
+  padding-top: 20px;
+  padding-bottom: 20px;
+} 
+
+#line{
+  text-align: center;
+}
+
+.midle-title{
+    display: inline-flex;
+    vertical-align: bottom;
+    position: relative;
+    top: 110px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.CoverTubos{
+  height: 430px;
+  background-image: linear-gradient(to right, rgba(21, 255, 0, 0.144), rgba(0, 255, 21, 0.274)), url("/Template/438898968_953232909773497_6805357737171066114_n\ -\ Copia.jpg");
+  width: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+  justify-self: center;
+}
+
+.logotipo{
+  background-image: url("/EcoTubosLogotipo.png");
+  width: inherit;
+  height: inherit;
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+ 
+ 
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url("/leaves.png");
+  background-size: 50%;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  justify-content: space-between;
+  line-break: anywhere;
+}
+
+section{
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.logo-container{
+  image: url("/EcoTubosLogotipo.png");
+}
+
+img{
+  width: 100px;
+  margin: 10px;
+}
+
+.phonex{
+  background-image: linear-gradient(to right, rgba(21, 255, 0, 0.144), rgba(0, 255, 21, 0.274)), url("/phone-4974179_1920.jpg");
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+.icon-contact{
+    vertical-align: bottom;
+    position: relative;
+    top: 150px;
+}
+
+.icon-big{
+  width: 180px;
+}
+
+.brand-logo{
+  filter: brightness(1000)
+}
+
+.p-footer{
+  color: #fff;
+}
+
+@media only screen and (max-width: 636px) {
+  .icon-big {
+    width: 20%;
+  }
+}
+
+#center-itens{
+  text-align: center;
+}
+
+#navbar{
+  position: sticky;
+  top: 0;
+}
